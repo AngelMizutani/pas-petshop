@@ -1,0 +1,22 @@
+13abr2022
+Aula sobre funções
+
+Função sem parâmetro e sem retorno
+Este tipo de função pode ser utilizada quando não há necessidade de um valor a ser retornado,
+pois não será utilizado em outro lugar. Por não possuir parâmetros, o reaproveitamento de código se torna limitado
+
+Função com retorno e sem parâmetro
+Neste tipo de função, o valor do retorno será utilizado no código em outro lugar,
+sendo geralmente armazenado em uma variável
+
+Função sem retorno e com parametro
+Este tipo de função recebe parametros e os utiliza para realizar alguma instrução
+É menos limitado que a função sem parametros e sem retorno, pois seus resultados irão
+variar de acordo com os parametros 
+Como não possui retorno, se for realizado algum cálculo dentro da função,
+ela deve ter alguma instrução para exibir o resultado, como o print, por exemplo
+
+Função com retorno e com parametro
+Este tipo de função recebe parametros e pode utilizá-los para realizar um cálculo,
+por exemplo. O valor retornado pela função pode ser armazenado em uma variável
+e ser utilizado para outras instruções

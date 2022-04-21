@@ -1,0 +1,17 @@
+Atividade 1
+1) Qual a diferença entre a 1a. e a 2a. forma? Na sua opinião, o que melhorou e o que piorou?
+A segunda forma melhorou a legibilidade do código, a manutenção e também permite a realização de testes.
+
+2) O que é e para que serve parametros do tipo função? Em que caso utilizamos?
+Parametros do tipo função são parametros que demonstram uma ação, por isso são utilizados quando a execução da função depende de uma ação
+
+Atividade II
+Defina 3 funções do mesmo contexto e uma interface para estas funções
+-> Interface (função para escolher) salário
+-> Receber salario e um valor. bonificar o valor no salário e informar se o total é maior que o salário minimo.
+-> Receber salario e um valor. Descontar o valor no salário e informar se ainda resta salário a receber.
+-> Receber salario e um valor. Neste caso o valor é o bonus que tem encargos de 10%. Adicionar o bonus e retornar o valor do salario.
+
+Atividade III
+Pensar em um projeto único
+Fazer um exemplo seu

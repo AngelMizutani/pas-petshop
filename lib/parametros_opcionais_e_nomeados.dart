@@ -9,8 +9,8 @@ String verificarAprovacao(double nota1, double nota2,
   }
 }
 
-String verificarAprovacaoParamNomeado({required double nota1, required double nota2,
-    double mediaAprovacao = 6}) {
+String verificarAprovacaoParamNomeado(
+    {required double nota1, required double nota2, double mediaAprovacao = 6}) {
   var media = (nota1 + nota2) / 2;
 
   if (media >= mediaAprovacao) {
@@ -20,8 +20,8 @@ String verificarAprovacaoParamNomeado({required double nota1, required double no
   }
 }
 
-String verificarAprovacaoParamMist(
-    double nota1, {required double nota2, double mediaAprovacao = 6}) {
+String verificarAprovacaoParamMist(double nota1,
+    {required double nota2, double mediaAprovacao = 6}) {
   var media = (nota1 + nota2) / 2;
 
   if (media >= mediaAprovacao) {

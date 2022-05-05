@@ -4,6 +4,7 @@ import 'package:funcao_anonima/salario.dart' as salario;
 import 'package:funcao_anonima/petshop.dart' as petshop;
 import 'package:funcao_anonima/atividades.dart' as atividades;
 import 'package:funcao_anonima/petshop_parametros.dart' as pet_param;
+import 'package:funcao_anonima/atividade_semantica.dart' as ativ_sem;
 
 void main(List<String> arguments) {
   // print(funcao_anonima.verificarAprovacao(3, 7.0, 6.0));
@@ -22,5 +23,6 @@ void main(List<String> arguments) {
   // });
 
   // atividades.show();
-  pet_param.show();
+  // pet_param.show();
+  ativ_sem.show();
 }

@@ -33,7 +33,10 @@ Uma única função com parâmetros nomeados e anônimos;
 void show() {
   // calcularQtdeVacina(10);
   // print(calcularValorRacao(100));
-  print(escreverMsgAniversario(nomeCliente: 'Angelica', nomePet: 'Zelda'));
+  // print(escreverMsgAniversario(nomeCliente: 'Angelica', nomePet: 'Zelda'));
+  // listarPrecosServicos(valorVacina: 15.50, valorTosa: 20);
+  // cadastrarPet(nomePet: 'Zelda', nomeTutor: 'Angelica', apelidoPet: 'Madame Zeldinha');
+  calcularTotalVenda(10, 2.5, nomeProduto: 'Ração para Gatos', marcaProduto: 'Whiskas');
 }
 
 //Duas funções com parâmetros opcionais (valor padrão)
@@ -59,4 +62,37 @@ String escreverMsgAniversario(
 }
 
 //Uma função com parâmetros nomeados opcionais;
-// void listarPrecosServicos({double valorBanho})
+void listarPrecosServicos(
+    {double? valorBanho, double? valorTosa, double? valorVacina}) {
+  print('''
+    ### SERVIÇOS ###
+    BANHO: $valorBanho
+    TOSA: $valorTosa
+    APLICAÇÃO DE VACINA: $valorVacina
+''');
+}
+
+//Uma função com parâmetros nomeados obrigatórios e opcionais;
+void cadastrarPet({
+  String? apelidoPet,
+  required String nomeTutor,
+  required String nomePet,
+}) {
+  print('''
+      ### CADASTRAR PET ###
+      Nome do Tutor: $nomeTutor
+      Nome do Pet: $nomePet
+      Apelido do Pet: $apelidoPet
+''');
+}
+
+//Uma única função com parâmetros nomeados e anônimos;
+void calcularTotalVenda(double valorProduto, double quantidadeProduto,
+    {required String nomeProduto, required String marcaProduto}) {
+  double total = valorProduto * quantidadeProduto;
+  print('''
+  ### VENDA ###
+  Produto: $nomeProduto $marcaProduto
+  Total: $total
+  ''');
+}
